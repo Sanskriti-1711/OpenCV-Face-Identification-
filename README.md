@@ -1,7 +1,7 @@
 # OpenCV-Face-Identification-
-This is a face identification program in python which makes use of OpenCV liabrary of python. It first detects the face of the user then takes records with the help of 100 images and saves it in a folder called 'faces'(need to be made manually if doesnt exist). 
+This is a face identification program in python which makes use of OpenCV library of python. It first detects the face of the user then takes records with the help of 100 images and saves it in a folder called 'faces'(need to be made manually if doesnt exist). 
 Then the model is trained so the the user is identified when he/she appears the next time.
-After the identification of the user a terraform file is executed which consisit of code to launch a VPC(Virtual Private Cloud) in AWS.
+After the identification of the user a terraform file is executed which consist of code to launch a VPC(Virtual Private Cloud) in AWS.
 
 Technologies integrated:
 
@@ -19,16 +19,16 @@ The infrastructure Terraform can manage includes low-level components such as co
 
 The key features of Terraform are:
 
-»Infrastructure as Code: 
+» Infrastructure as Code: 
 Infrastructure is described using a high-level configuration syntax. This allows a blueprint of your datacenter to be versioned and treated as you would any other code. Additionally, infrastructure can be shared and re-used.
 
-»Execution Plans: 
+» Execution Plans: 
 Terraform has a "planning" step where it generates an execution plan. The execution plan shows what Terraform will do when you call apply. This lets you avoid any surprises when Terraform manipulates infrastructure.
 
-»Resource Graph: 
+» Resource Graph: 
 Terraform builds a graph of all your resources, and parallelizes the creation and modification of any non-dependent resources. Because of this, Terraform builds infrastructure as efficiently as possible, and operators get insight into dependencies in their infrastructure.
 
-»Change Automation: 
+» Change Automation: 
 Complex changesets can be applied to your infrastructure with minimal human interaction. With the previously mentioned execution plan and resource graph, you know exactly what Terraform will change and in what order, avoiding many possible human errors.
 
 Amazon Virtual Private Cloud:
