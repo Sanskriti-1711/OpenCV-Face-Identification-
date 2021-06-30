@@ -3,6 +3,8 @@ This is a face identification program in python which makes use of OpenCV librar
 Then the model is trained so the the user is identified when he/she appears the next time.
 After the identification of the user a terraform file is executed which consist of code to launch a VPC(Virtual Private Cloud) in AWS.
 
+pre-requisite: Terraform software and AWSCLI to be installed.
+
 Technologies integrated:
 
 ## Python 
